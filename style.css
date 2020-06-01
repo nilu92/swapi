@@ -1,19 +1,25 @@
-h4
+.container
 {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-
-    margin: 20px 0;
+    height: 200px;
+    width: 450px;
+    border-radius: 25px;;
+    border-width: 2px;
+    border-style: solid;
+    background-color: black;
+    border-color: yellow;
+   margin-left: 35%;
+    color: aliceblue;
+    
+   
     text-align: center;
-    background-color: rgb(187, 133, 133);
-    padding: 3px 0;
+   
 }
-body
+.title
 {
-    background-color: lightgray;
-    margin: 0;
+    color: yellowgreen;
+    /*margin-left: 700px;*/
+    
+    margin-top: 50px;
+    margin-left: 35%;
+  
 }
-img {
-    margin: 10px;
-    width: 100px;
-  }

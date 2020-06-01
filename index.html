@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css" type=text/css>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="ajax.js" ></script>
-</head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type=text/css>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="swapi.js" ></script>
+    </head>
 
+    <body style="background-color: black;">
+        <h1 class="title" class="text" >Star wars API</h1>
+    <div class="container">
+        <h1 id="name">...</h1>
+        <p id ="height"></p>
+        <p id ="mass"></p>
+        <p id ="birthyear"></p>
+       
+        <ul id = 'list' style="display: none;">
+          
+        </ul>
+        
+    
+    </div>
+   <div style="margin-left: 38.9%;">
+    <button id="button" style="margin-top:10px" name="button" type = "button"  >Use the force!</button>
+    <button id="btn" style="margin-top:10px " name="btn" type = "submit"  >add favorite</button>
+    <button id="show" style="margin-top:10px" name="show" type = "submit"  >Show favorites</button>
+   </div>
+  
 
-
-    <h4 class="text" >Replace me!</h4>
-    <p></p>
-   <button class="btn" type = "button" >Click me</button>
-
-
+    </body>
 </html>
